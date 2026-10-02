@@ -6,10 +6,10 @@ export function isLocale(value: string): value is Locale {
 }
 
 export const site = {
-  nameAr: "ط§ظ„ط؛ظٹط«",
+  nameAr: "الغيث",
   nameEn: "Alghaith",
   url: "https://alghaithapp.netlify.app",
-  locationAr: "ط§ظ„ط­ط¯ظٹط¯ط©طŒ ط§ظ„ظٹظ…ظ†",
+  locationAr: "الحديدة، اليمن",
   locationEn: "Hodeidah, Yemen",
   email: "alimubark440@gmail.com",
   whatsapp: "967773014017",
@@ -18,12 +18,12 @@ export const site = {
 
 export const services = {
   ar: [
-    { title: "ط£ظ†ط¸ظ…ط© ط¥ط¯ط§ط±ط© ط§ظ„ط£ط¹ظ…ط§ظ„", text: "ط£ظ†ط¸ظ…ط© ظ…ط®طµطµط© ظ„ظ„ظ…ظˆط§ط±ط¯ ط§ظ„ط¨ط´ط±ظٹط©طŒ ط§ظ„ظ…ط¨ظٹط¹ط§طھطŒ ط§ظ„ظ…ط®ط²ظˆظ†طŒ ط§ظ„ط³ظƒظ†طŒ ط§ظ„ظ…طھط¹ظ‡ط¯ظٹظ† ظˆط§ظ„طھط´ط؛ظٹظ„." },
-    { title: "طھط·ط¨ظٹظ‚ط§طھ ط§ظ„ط¬ظˆط§ظ„", text: "طھط·ط¨ظٹظ‚ط§طھ Android ظˆiOS ظ…ط±طھط¨ط·ط© ط¨ط¨ظٹط§ظ†ط§طھ ظˆط£ظ†ط¸ظ…ط© ط§ظ„ط£ط¹ظ…ط§ظ„ ط¹ظ†ط¯ ط§ظ„ط­ط§ط¬ط©." },
-    { title: "ظ„ظˆط­ط§طھ ط§ظ„ظ…ط¹ظ„ظˆظ…ط§طھ", text: "Dashboards ظˆطھظ‚ط§ط±ظٹط± طھط´ط؛ظٹظ„ظٹط© طھط³ط§ط¹ط¯ ط§ظ„ط¥ط¯ط§ط±ط© ط¹ظ„ظ‰ ط§ظ„ظ…طھط§ط¨ط¹ط© ظˆط§طھط®ط§ط° ط§ظ„ظ‚ط±ط§ط±." },
-    { title: "طھظƒط§ظ…ظ„ ط§ظ„ط£ظ†ط¸ظ…ط© ظˆظˆط§ط¬ظ‡ط§طھ API", text: "ط±ط¨ط· ط§ظ„ط£ظ†ط¸ظ…ط© ط§ظ„ط¯ط§ط®ظ„ظٹط© ظˆط§ظ„ط®ط¯ظ…ط§طھ ط§ظ„ط®ط§ط±ط¬ظٹط© ظˆطھط¨ط§ط¯ظ„ ط§ظ„ط¨ظٹط§ظ†ط§طھ ط¨ط´ظƒظ„ ظ…ظ†ط¸ظ…." },
-    { title: "ط§ظ„ط¨ظˆط§ط¨ط§طھ ظˆط§ظ„ط£ظ†ط¸ظ…ط© ط§ظ„ط¯ط§ط®ظ„ظٹط©", text: "ظˆط§ط¬ظ‡ط§طھ ظˆظٹط¨ ط­ط¯ظٹط«ط© ظ„ظ„ظ…ظˆط¸ظپظٹظ†طŒ ط§ظ„ط¹ظ…ظ„ط§ط،طŒ ط§ظ„ظ…ط´ط±ظپظٹظ† ظˆط§ظ„ط¥ط¯ط§ط±ط©." },
-    { title: "ط§ظ„طµظٹط§ظ†ط© ظˆط§ظ„طھط·ظˆظٹط±", text: "طھط­ط³ظٹظ†ط§طھ ظ…ط³طھظ…ط±ط©طŒ ط¥طµظ„ط§ط­ط§طھطŒ طھط­ط¯ظٹط«ط§طھ ظˆط¯ط¹ظ… ظ„ظ…ط§ ط¨ط¹ط¯ ط§ظ„طھط³ظ„ظٹظ…." },
+    { title: "أنظمة إدارة الأعمال", text: "أنظمة مخصصة للموارد البشرية، المبيعات، المخزون، السكن، المتعهدين والتشغيل." },
+    { title: "تطبيقات الجوال", text: "تطبيقات Android وiOS مرتبطة بالبيانات وأنظمة الأعمال عند الحاجة." },
+    { title: "لوحات المعلومات والتقارير", text: "لوحات معلومات وتقارير تشغيلية تساعد الإدارة على المتابعة واتخاذ القرار." },
+    { title: "تكامل الأنظمة وواجهات API", text: "ربط الأنظمة الداخلية والخدمات الخارجية وتبادل البيانات بشكل منظم." },
+    { title: "البوابات والأنظمة الداخلية", text: "واجهات ويب حديثة للموظفين والعملاء والمشرفين والإدارة." },
+    { title: "الصيانة والتطوير", text: "تحسينات مستمرة، إصلاحات، تحديثات ودعم ما بعد التسليم." },
   ],
   en: [
     { title: "Business Systems", text: "Custom systems for HR, sales, inventory, housing, contractors, and operations." },
@@ -57,13 +57,13 @@ export const projects: Project[] = [
   {
     slug: "earth-aljawhara",
     icon: "01",
-    titleAr: "ظ†ط¸ط§ظ… ط£ط±ط¶ ط§ظ„ط¬ظˆظ‡ط±ط©",
+    titleAr: "نظام أرض الجوهرة",
     titleEn: "Ard Aljawhara Management System",
-    categoryAr: "ط®ط¯ظ…ط§طھ ط§ظ„ظ†ط¸ط§ظپط©",
+    categoryAr: "خدمات النظافة",
     categoryEn: "Cleaning Services",
-    summaryAr: "ظ†ط¸ط§ظ… ظ…ط®طµطµ ظ„طھظ†ط¸ظٹظ… ط§ظ„ط£ط¹ظ…ط§ظ„ ظˆط§ظ„ظ…ظ‡ط§ظ… ظˆط§ظ„ظ…طھط§ط¨ط¹ط© ط§ظ„طھط´ط؛ظٹظ„ظٹط© ظ„ط®ط¯ظ…ط§طھ ط§ظ„ظ†ط¸ط§ظپط©.",
+    summaryAr: "نظام مخصص لتنظيم الأعمال والمهام والمتابعة التشغيلية لخدمات النظافة.",
     summaryEn: "A custom system for organizing operations, tasks, and follow-up for cleaning services.",
-    statusAr: "طھظ… ط§ظ„طھط³ظ„ظٹظ…",
+    statusAr: "تم التسليم",
     statusEn: "Delivered",
     images: [
       "/projects/earth-aljawhara/earth-aljawhara-01.png",
@@ -83,13 +83,13 @@ export const projects: Project[] = [
   {
     slug: "talaat-hael",
     icon: "02",
-    titleAr: "ظ†ط¸ط§ظ… ط·ظ„ط¹طھ ظ‡ط§ط¦ظ„ ظ„ظ„ط®ط¯ظ…ط§طھ ط§ظ„ط²ط±ط§ط¹ظٹط©",
+    titleAr: "نظام طلعت هائل للخدمات الزراعية",
     titleEn: "Talaat Hael Agricultural Services",
-    categoryAr: "ط§ظ„ط§ط³طھط´ط§ط±ط§طھ ط§ظ„ط²ط±ط§ط¹ظٹط©",
+    categoryAr: "الاستشارات الزراعية",
     categoryEn: "Agricultural Consulting",
-    summaryAr: "ط­ظ„ ط±ظ‚ظ…ظٹ ظ„ظ„ط®ط¯ظ…ط§طھ ظˆط§ظ„ط§ط³طھط´ط§ط±ط§طھ ط§ظ„ط²ط±ط§ط¹ظٹط© ظ…ط¹ طµظپط­ط§طھ طھط´ط؛ظٹظ„ظٹط© ظˆطھط¯ظپظ‚ط§طھ ظ…ط®طµطµط© ظ„ظ„ط¹ظ…ظ„.",
+    summaryAr: "نظام رقمي للخدمات والاستشارات الزراعية مع صفحات تشغيلية وتدفقات مخصصة للعمل.",
     summaryEn: "A digital solution for agricultural services and consulting with custom operational workflows.",
-    statusAr: "طھظ… ط§ظ„طھط³ظ„ظٹظ…",
+    statusAr: "تم التسليم",
     statusEn: "Delivered",
     images: [
       "/projects/talaat-hael/talaat-hael-01.png",
@@ -112,13 +112,13 @@ export const projects: Project[] = [
   {
     slug: "housing",
     icon: "03",
-    titleAr: "ظ…ظ†طµط© ط§ظ„ط؛ظٹط« ظ„ط¥ط¯ط§ط±ط© ط¥ط³ظƒط§ظ† ط§ظ„ظ…ظˆط¸ظپظٹظ†",
+    titleAr: "منصة الغيث لإدارة إسكان الموظفين",
     titleEn: "Alghaith Employee Housing Management",
-    categoryAr: "ط¥ط¯ط§ط±ط© ط§ظ„ط³ظƒظ† ظˆط§ظ„ط¥ط´ط؛ط§ظ„",
+    categoryAr: "إدارة السكن والإشغال",
     categoryEn: "Housing & Occupancy",
-    summaryAr: "ط¥ط¯ط§ط±ط© ط§ظ„ظ…ظˆط¸ظپظٹظ† ظˆط§ظ„ظ…ط¨ط§ظ†ظٹ ظˆط§ظ„ط؛ط±ظپ ظˆط§ظ„ط£ط³ط±ط© ظˆط·ظ„ط¨ط§طھ ط§ظ„ط³ظƒظ† ظˆط³ط¬ظ„ ط§ظ„ط¥ط´ط؛ط§ظ„طŒ ظ…ط¹ ظˆط­ط¯ط§طھ ظ„ظ„ط£طµظˆظ„ ظˆط§ظ„طµظٹط§ظ†ط© ظˆط§ظ„ظ…طھط§ط¨ط¹ط©.",
+    summaryAr: "إدارة الموظفين والمباني والغرف والأسرة وطلبات السكن وسجل الإشغال، مع وحدات للأصول والصيانة والمتابعة.",
     summaryEn: "Manage employees, buildings, rooms, beds, housing requests, occupancy history, assets, maintenance, and follow-up.",
-    statusAr: "طھظ… ط§ظ„طھط·ظˆظٹط±",
+    statusAr: "تم التطوير",
     statusEn: "Developed",
     images: ["/projects/housing/housing-safe.png"],
     tags: ["HR", "Occupancy", "Assets", "Maintenance"],
@@ -127,13 +127,13 @@ export const projects: Project[] = [
   {
     slug: "sewing-workshop",
     icon: "04",
-    titleAr: "ظ†ط¸ط§ظ… ط¥ط¯ط§ط±ط© ظ…ط¹ظ…ظ„ ط§ظ„ط®ظٹط§ط·ط§طھ",
+    titleAr: "نظام إدارة معمل الخياطات",
     titleEn: "Sewing Workshop Management System",
-    categoryAr: "ط¥ط¯ط§ط±ط© ط§ظ„ظ…ط¹ظ…ظ„",
+    categoryAr: "إدارة المعمل",
     categoryEn: "Workshop Management",
-    summaryAr: "ظ†ط¸ط§ظ… ظ…ط®طµطµ ظ„ظ…ط¹ظ…ظ„ ط§ظ„ط®ظٹط§ط·ط§طھ. طھطھظˆظپط± ط­ط§ظ„ظٹظ‹ط§ ظ„ظ‚ط·ط© ط´ط§ط´ط© ظ…ظˆط«ظ‚ط© ظ„ظˆط§ط¬ظ‡ط© ط§ظ„ط¯ط®ظˆظ„طŒ ظˆطھظڈط¶ط§ظپ ط¨ظ‚ظٹط© ط§ظ„ظ„ظ‚ط·ط§طھ ط¨ط¹ط¯ ط§ظ„ط¥ط°ظ†.",
+    summaryAr: "نظام مخصص لمعمل الخياطات، يوفر واجهة موثقة لإدارة العمل والمتابعة.",
     summaryEn: "A custom system for a sewing workshop. A verified login screen is available now; additional screenshots will be added after authorization.",
-    statusAr: "طھظ… ط§ظ„طھط·ظˆظٹط±",
+    statusAr: "تم التطوير",
     statusEn: "Developed",
     images: ["/projects/sewing-workshop/sewing-workshop.png"],
     tags: ["Workshop", "Operations", "Arabic UI"],
@@ -143,13 +143,13 @@ export const projects: Project[] = [
   {
     slug: "workplace-cleanliness",
     icon: "05",
-    titleAr: "طھط·ط¨ظٹظ‚ طھظ‚ظٹظٹظ… ط¨ظٹط¦ط© ط§ظ„ط¹ظ…ظ„ ظˆط§ظ„ظ†ط¸ط§ظپط©",
+    titleAr: "تطبيق تقييم بيئة العمل والنظافة",
     titleEn: "Workplace Environment & Cleanliness",
-    categoryAr: "ط§ظ„طھظ‚ظٹظٹظ… ظˆط§ظ„طھظ‚ط§ط±ظٹط±",
+    categoryAr: "التقييم والتقارير",
     categoryEn: "Inspection & Reporting",
-    summaryAr: "طھط·ط¨ظٹظ‚ ظ„طھظ‚ظٹظٹظ… ط¨ظٹط¦ط© ط§ظ„ط¹ظ…ظ„ ظˆط§ظ„ظ†ط¸ط§ظپط© ط¨ط¯ط±ط¬ط§طھ ظ‚ط§ط¨ظ„ط© ظ„ظ„طھط­ظ„ظٹظ„ ظˆط§ظ„ظ…طھط§ط¨ط¹ط© ظˆط§ظ„طھظ‚ط§ط±ظٹط±.",
+    summaryAr: "تطبيق لتقييم بيئة العمل والنظافة بدرجات قابلة للتحليل والمتابعة والتقارير.",
     summaryEn: "An inspection workflow for workplace cleanliness and environment scoring, analysis, and reporting.",
-    statusAr: "ظ‚ظٹط¯ ط§ظ„طھط·ظˆظٹط±",
+    statusAr: "قيد التطوير",
     statusEn: "In Development",
     images: [],
     tags: ["Inspections", "Scoring", "Analytics"],
@@ -157,13 +157,13 @@ export const projects: Project[] = [
   {
     slug: "ghithops",
     icon: "06",
-    titleAr: "طھط·ط¨ظٹظ‚ ط§ظ„ط؛ظٹط« ط§ظ„ط´ط§ظ…ظ„",
+    titleAr: "تطبيق الغيث الشامل",
     titleEn: "Alghaith Operations Platform",
-    categoryAr: "ظ…ظ†طµط© طھط´ط؛ظٹظ„ظٹط© ظ…طھظƒط§ظ…ظ„ط©",
+    categoryAr: "منصة تشغيلية متكاملة",
     categoryEn: "Integrated Operations Platform",
-    summaryAr: "ظ…ظ†طµط© طھط´ط؛ظٹظ„ظٹط© ظ…ظˆط­ظ‘ط¯ط© ظ„ط¥ط¯ط§ط±ط© ط§ظ„ط´ط±ظƒط© ط¹ط¨ط± ظˆط§ط¬ظ‡ط© API ظˆظ„ظˆط­ط© ظˆظٹط¨ ظˆطھط·ط¨ظٹظ‚ ط¬ظˆط§ظ„طŒ طھط؛ط·ظٹ ط§ظ„ظ…ظˆط§ط±ط¯ ط§ظ„ط¨ط´ط±ظٹط© ظˆط§ظ„ط³ظƒظ† ظˆط§ظ„ط£طµظˆظ„ ظˆط§ظ„ظ†ظ‚ظ„ ظˆط§ظ„ظ†ط¸ط§ظپط© ظˆط§ظ„ط²ط±ط§ط¹ط© ظˆط§ظ„ظ…طھط¹ظ‡ط¯ظٹظ† ظˆط§ظ„طھط£ظ…ظٹظ† ظˆط§ظ„طھظ‚ط§ط±ظٹط±.",
-    summaryEn: "A unified operations platform combining an API backend, a web dashboard and a mobile app â€” covering HR, housing, assets, transport, cleaning, agriculture, contractors, insurance and reporting.",
-    statusAr: "طھظ… ط§ظ„طھط·ظˆظٹط±",
+    summaryAr: "منصة تشغيلية موحدة لإدارة الشركة عبر واجهة API ولوحة ويب وتطبيق جوال، تغطي الموارد البشرية والسكن والأصول والنقل والنظافة والزراعة والمتعهدين والتأمين والتقارير.",
+    summaryEn: "A unified operations platform combining an API backend, a web dashboard and a mobile app — covering HR, housing, assets, transport, cleaning, agriculture, contractors, insurance and reporting.",
+    statusAr: "تم التطوير",
     statusEn: "Developed",
     images: [
       "/projects/ghithops/ghithops-01.png",
@@ -182,4 +182,5 @@ export const projects: Project[] = [
 export function getProject(slug: string) {
   return projects.find((project) => project.slug === slug);
 }
+
 

@@ -57,25 +57,29 @@ Media lives in `public/projects/<project-slug>/` using Latin filenames, numbered
 `-01` (the card/hero cover) upward. Each project entry in `lib/content.ts` lists its own
 files; nothing else references them.
 
-| Project slug | Files | Count | `mediaFit` |
-|---|---|---|---|
-| `earth-aljawhara` | `earth-aljawhara-01…08.png` | 8 | `cover` (16:9 desktop) |
-| `talaat-hael` | `talaat-hael-01…12.png` | 12 | `cover` |
-| `ghithops` | `ghithops-01…07.png` | 7 | `cover` |
-| `housing` | `housing-safe.png` | 1 | `contain` |
-| `sewing-workshop` | `sewing-workshop.png` | 1 | `contain` |
-| `ras-issa-labor` | — | 0 | pending |
-| `workplace-cleanliness` | — | 0 | pending |
+| Project slug | Files | Count | `featured` | `mediaFit` |
+|---|---|---|---|---|
+| `earth-aljawhara` | `earth-aljawhara-01…09.png` | 9 | yes | `cover` (16:9 desktop) |
+| `talaat-hael` | `talaat-hael-01…12.png` | 12 | yes | `cover` |
+| `housing` | `housing-safe.png` | 1 | no | `contain` |
+| `sewing-workshop` | `sewing-workshop.png` | 1 | yes | `contain` |
+| `workplace-cleanliness` | — | 0 | no | pending |
+| `ghithops` | `ghithops-01…07.png` | 7 | yes | `cover` |
 
 Notes:
-- `earth-aljawhara-01…08.png` were supplied as the authorized Ard Aljawhara screenshots.
-  The source files were inconsistently named (`ارض الجوهرة*` and `ارض الجزهرة*`) and were
-  renamed during import.
+- `-01` is always the card/hero/OG cover; the rest render in the case-study gallery.
+- `earth-aljawhara-01.png` is the later-supplied cover image; the previously first image is now `-02`, and the set ends at `-09`.
+- `ghithops-01.png` is the image the owner picked as the cover (it was originally supplied second); the rest kept their order.
+- `earth-aljawhara-01…09.png` were supplied with inconsistent Arabic names (`ارض الجوهرة*` and `ارض الجزهرة*`) and were renamed during import.
 - `ghithops` (تطبيق الغيث الشامل) is the Django + Next.js + Flutter platform in `D:\GhithOps`.
   It has **no `liveUrl`**: the Render endpoints in its `render.yaml` currently return 404.
   Add `liveUrl` once a working public URL exists.
 - The `earth-aljawhara` and `talaat-hael` `liveUrl` values were verified reachable (HTTP 200).
 - The previous "ثلاجة الصليف المركزية" project has been removed from the portfolio.
+- `ras-issa-labor` (مكتب عمال رأس عيسى) was removed at the owner's request and now 404s.
+  `icon` numbers were renumbered after that removal, so they run `01`–`06` with no gaps.
+- `featured` controls the homepage grid only (`app/[locale]/page.tsx` takes the first four).
+  `ghithops` occupies that slot in place of `housing`, which stays reachable on `/portfolio`.
 
 When new screenshots are supplied, assign them only to the project the owner confirms. Do not infer project ownership from a filename or visual similarity.
 
