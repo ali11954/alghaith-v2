@@ -1,0 +1,8 @@
+
+node_modules/
+.next/
+tsconfig.tsbuildinfo
+
+.next/
+node_modules/
+tsconfig.tsbuildinfo
