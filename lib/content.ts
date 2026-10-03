@@ -18,20 +18,56 @@ export const site = {
 
 export const services = {
   ar: [
-    { title: "أنظمة إدارة الأعمال", text: "أنظمة مخصصة للموارد البشرية، المبيعات، المخزون، السكن، المتعهدين والتشغيل." },
-    { title: "تطبيقات الجوال", text: "تطبيقات Android وiOS مرتبطة بالبيانات وأنظمة الأعمال عند الحاجة." },
-    { title: "لوحات المعلومات والتقارير", text: "لوحات معلومات وتقارير تشغيلية تساعد الإدارة على المتابعة واتخاذ القرار." },
-    { title: "تكامل الأنظمة وواجهات API", text: "ربط الأنظمة الداخلية والخدمات الخارجية وتبادل البيانات بشكل منظم." },
-    { title: "البوابات والأنظمة الداخلية", text: "واجهات ويب حديثة للموظفين والعملاء والمشرفين والإدارة." },
-    { title: "الصيانة والتطوير", text: "تحسينات مستمرة، إصلاحات، تحديثات ودعم ما بعد التسليم." },
+    {
+      title: "تصميم وتطوير الأنظمة",
+      text: "تصميم وتطوير أنظمة إدارية وأنظمة أعمال مخصصة للموارد البشرية والمبيعات والمخزون والسكن والمتعهدين والتشغيل."
+    },
+    {
+      title: "تصميم وتطوير التطبيقات",
+      text: "تصميم وتطوير تطبيقات الجوال Android وiOS وتطبيقات الويب حسب احتياجات المشروع وربطها بالبيانات وأنظمة الأعمال."
+    },
+    {
+      title: "تصميم وبرمجة البرامج المخصصة",
+      text: "إنشاء وبرمجة برامج وحلول رقمية مخصصة للشركات والمؤسسات وفق إجراءات العمل واحتياجات المستخدمين."
+    },
+    {
+      title: "لوحات المعلومات والتقارير",
+      text: "تصميم لوحات معلومات وتقارير تشغيلية تساعد الإدارة على المتابعة وتحليل البيانات واتخاذ القرار."
+    },
+    {
+      title: "تكامل الأنظمة وواجهات API",
+      text: "ربط الأنظمة الداخلية والتطبيقات والخدمات الخارجية وتبادل البيانات من خلال واجهات API منظمة."
+    },
+    {
+      title: "البوابات والصيانة والتطوير",
+      text: "تطوير بوابات ويب وأنظمة داخلية حديثة، مع تحسين البرامج والأنظمة والتطبيقات القائمة وإصلاحها وتحديثها ودعمها بعد التسليم."
+    },
   ],
   en: [
-    { title: "Business Systems", text: "Custom systems for HR, sales, inventory, housing, contractors, and operations." },
-    { title: "Mobile Apps", text: "Android and iOS apps connected to business data and workflows when needed." },
-    { title: "Dashboards & Reporting", text: "Operational dashboards and reports for monitoring and decision support." },
-    { title: "API & Integrations", text: "Connect internal systems and external services with structured data exchange." },
-    { title: "Web Portals", text: "Modern browser-based portals for employees, customers, supervisors and management." },
-    { title: "Maintenance & Evolution", text: "Ongoing fixes, improvements, updates and post-delivery support." },
+    {
+      title: "System Design & Development",
+      text: "Design and development of custom business and management systems for HR, sales, inventory, housing, contractors, and operations."
+    },
+    {
+      title: "App Design & Development",
+      text: "Design and development of Android, iOS, and web applications based on project requirements and connected to business data."
+    },
+    {
+      title: "Custom Software Development",
+      text: "Creation and programming of custom software and digital solutions for companies and organizations based on their workflows and user needs."
+    },
+    {
+      title: "Dashboards & Reporting",
+      text: "Design of operational dashboards and reports that help management monitor performance, analyze data, and make decisions."
+    },
+    {
+      title: "API & System Integration",
+      text: "Integration of internal systems, applications, and external services through structured APIs and data exchange."
+    },
+    {
+      title: "Web Portals & Software Maintenance",
+      text: "Development of modern web portals and internal systems, with ongoing software improvements, fixes, updates, and post-delivery support."
+    },
   ],
 } as const;
 
